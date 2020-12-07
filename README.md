@@ -1,3 +1,8 @@
+﻿ pip install -r requirements.txt 
+
+ manage.py loaddata fixtures.json
+
+
 # Дипломный проект по курсу «Django: создание функциональных веб-приложений»
 
 Разработать API для интернет-магазина.
