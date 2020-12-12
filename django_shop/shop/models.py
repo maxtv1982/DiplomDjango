@@ -40,7 +40,7 @@ class ProductReview(models.Model):
     updated_at = models.DateTimeField(auto_now=True, verbose_name='дата обновления')
 
     def __str__(self):
-        return "отзыв : {}".format(self.product.title)
+        return self.product.title
 
 
 class Order(models.Model):
